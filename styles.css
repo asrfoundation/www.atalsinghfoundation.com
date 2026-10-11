@@ -29,3 +29,7 @@
 
 /* Home photo slideshow */
 .hero-photo .home-slide{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .8s ease}.hero-photo .home-slide.is-active{opacity:1}.slideshow-dots{position:absolute;z-index:2;right:20px;bottom:18px;display:flex;gap:8px}.slideshow-dot{width:9px;height:9px;padding:0;border:1px solid rgba(255,255,255,.95);border-radius:50%;background:rgba(17,24,32,.35);cursor:pointer}.slideshow-dot.is-active{background:#fff;transform:scale(1.18)}@media(prefers-reduced-motion:reduce){.hero-photo .home-slide{transition:none}}
+
+
+/* Professional belief section */
+.mission.strip{background:linear-gradient(135deg,#0d202d 0%,#123c54 54%,#1e6686 100%);border-top:1px solid rgba(169,216,241,.22);border-bottom:1px solid rgba(169,216,241,.18)}.mission.strip .statement{max-width:840px;font-size:clamp(23px,2.75vw,38px);letter-spacing:-1.25px}.mission.strip .round-link{box-shadow:0 0 0 7px rgba(169,216,241,.12)}
